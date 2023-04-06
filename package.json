@@ -7,7 +7,7 @@
   "license": "NaN",
   "private": true,
   "scripts": {
-    "dev": "ts-node ./src/index.ts",
+    "dev": "nodemon --exec ts-node ./src/index.ts",
     "start": "npx tsc & node ./dist/index.js",
     "tests": "jest --passWithNoTests"
   },
@@ -22,6 +22,7 @@
     "@types/jest": "^29.5.0",
     "@types/pg": "^8.6.6",
     "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
     "supertest": "^6.3.3",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",

@@ -1,12 +1,24 @@
 {
-  "compilerOptions": {
-    "module": "system",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "outFile": "../../built/local/tsc.js",
-    "sourceMap": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2022",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "lib": [
+            "es2022"
+        ],
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
 }
