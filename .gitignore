@@ -1,0 +1,69 @@
+# Dependências do projeto
+node_modules/
+package-lock.json
+
+# Arquivos gerados pelo sistema
+build/
+coverage/
+logs/
+*.log
+
+# Arquivos de configuração
+.env
+
+# Arquivos de log
+*.log*
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Arquivos de imagem
+.DS_Store
+Thumbs.db
+
+# Arquivos de build do VS Code
+.vscode/
+*.jsproj
+*.sln
+*.config
+
+# Arquivos de dependências do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos de cache do Jest
+cache/
+*.test.js.snap
+
+# Arquivos de cache do TypeScript
+*.tsbuildinfo
+
+# Arquivos de cache do Yarn
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/metadata.json
+
+# Diretórios e arquivos específicos da IDE
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup
+*~
+*.bak
+*.backup
+*.swp
+
+# Arquivos de configuração de dependências
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos lock
+yarn.lock
+package-lock.json
