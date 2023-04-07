@@ -233,7 +233,7 @@ ALTER TABLE "RuleGroup" ADD CONSTRAINT "FK_RuleGroup_Group" FOREIGN KEY ("GroupI
 ALTER TABLE "UserAddress" ADD CONSTRAINT "FK_UserAddress_User" FOREIGN KEY ("UserID") REFERENCES "User" ("UserID");
 ALTER TABLE "UserAddress" ADD CONSTRAINT "FK_UserAddress_Address" FOREIGN KEY ("AddressID") REFERENCES "Address" ("AddressID");
 ALTER TABLE "UserGroup" ADD CONSTRAINT "FK_UserGroup_User" FOREIGN KEY ("UserID") REFERENCES "User" ("UserID");
-ALTER TABLE "UserGroup" ADD CONSTRAINT "FK_UserGroup_Group" FOREIGN KEY ("GroupID") REFERENCES "Address" ("AddressID");
+ALTER TABLE "UserGroup" ADD CONSTRAINT "FK_UserGroup_Group" FOREIGN KEY ("GroupID") REFERENCES "Group" ("GroupID");
 
 ALTER TABLE "Contact" ADD CONSTRAINT "FK_Contact_ContactType" FOREIGN KEY ("ContactTypeID") REFERENCES "ContactType" ("ContactTypeID");
 ALTER TABLE "Contact" ADD CONSTRAINT "FK_Contact_User" FOREIGN KEY ("UserID") REFERENCES "User" ("UserID");
