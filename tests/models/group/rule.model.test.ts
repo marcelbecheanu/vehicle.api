@@ -1,4 +1,4 @@
-import pool from '../../src/services/database';
+import pool from '../../../src/services/database';
 
 import {
     Rule,
@@ -8,7 +8,7 @@ import {
     deleteRuleById,
     updateRuleById,
     createRule
-} from '../../src/models/rule.model';
+} from '../../../src/models/group/rule.model';
 
 describe('Rule functions', () => {
     let testRule: Rule;

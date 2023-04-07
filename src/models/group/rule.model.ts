@@ -1,4 +1,4 @@
-import pool from './../services/database';
+import pool from '../../services/database';
 
 interface Rule {
     RuleID: number;
