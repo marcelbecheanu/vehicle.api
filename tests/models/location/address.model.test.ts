@@ -1,22 +1,22 @@
-import pool from '../../src/services/database';
+import pool from '../../../src/services/database';
 
 import {
     Country,
     createCountry,
     deleteCountryById,
-} from '../../src/models/country.model';
+} from '../../../src/models/location/country.model';
 
 import {
     District,
     createDistrict,
     deleteDistrictById,
-} from '../../src/models/district.model';
+} from '../../../src/models/location/district.model';
 
 import {
     Locality,
     createLocality,
     deleteLocalityById,
-} from '../../src/models/locality.model';
+} from '../../../src/models/location/locality.model';
 
 import {
     Address,
@@ -26,7 +26,7 @@ import {
     deleteAddressById,
     updateAddressById,
     createAddress
-} from '../../src/models/address.model';
+} from '../../../src/models/location/address.model';
 
 describe('Address functions', () => {
     let testCountry: Country;

@@ -1,4 +1,4 @@
-import pool from '../../src/services/database';
+import pool from '../../../src/services/database';
 
 import {
     District,
@@ -8,13 +8,13 @@ import {
     deleteDistrictById,
     updateDistrictById,
     createDistrict
-} from '../../src/models/district.model';
+} from '../../../src/models/location/district.model';
 
 import {
     Country,
     createCountry,
     deleteCountryById
-} from '../../src/models/country.model';
+} from '../../../src/models/location/country.model';
 
 
 describe('District functions', () => {

@@ -1,16 +1,16 @@
-import pool from '../../src/services/database';
+import pool from '../../../src/services/database';
 
 import {
     Country,
     createCountry,
     deleteCountryById,
-} from '../../src/models/country.model';
+} from '../../../src/models/location/country.model';
 
 import {
     District,
     createDistrict,
     deleteDistrictById,
-} from '../../src/models/district.model';
+} from '../../../src/models/location/district.model';
 
 import {
     Locality,
@@ -20,7 +20,7 @@ import {
     getLocalityById,
     getLocalityByName,
     updateLocalityById,
-} from '../../src/models/locality.model';
+} from '../../../src/models/location/locality.model';
 
 describe('Locality functions', () => {
     let testCountry: Country;

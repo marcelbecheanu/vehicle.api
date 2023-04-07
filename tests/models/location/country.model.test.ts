@@ -1,4 +1,4 @@
-import pool from '../../src/services/database';
+import pool from '../../../src/services/database';
 
 import {
     Country,
@@ -8,7 +8,7 @@ import {
     deleteCountryById,
     updateCountryById,
     createCountry
-} from '../../src/models/country.model';
+} from '../../../src/models/location/country.model';
 
 
 describe('Country functions', () => {
