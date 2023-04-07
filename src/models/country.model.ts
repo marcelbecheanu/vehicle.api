@@ -46,4 +46,12 @@ async function createCountry(country: Omit<Country, 'CountryID'>): Promise<Count
     return result.rows[0];
 }
 
-export { Country, getCountryByName, getAllCountries, getCountryById, deleteCountryById, updateCountryById, createCountry };
+export {
+    Country,
+    getCountryByName,
+    getAllCountries,
+    getCountryById,
+    deleteCountryById,
+    updateCountryById,
+    createCountry
+};
