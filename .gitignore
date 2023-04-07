@@ -3,6 +3,7 @@ node_modules/
 package-lock.json
 
 # Arquivos gerados pelo sistema
+dist/
 build/
 coverage/
 logs/
