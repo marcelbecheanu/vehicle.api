@@ -13,5 +13,4 @@ app.use(express.urlencoded({ extended: true }));
 app.use(compression());
 
 // Routes
-
 app.listen(server.port || 9000, () => console.log(`Server has started on ${server.port || 9000}.`));
